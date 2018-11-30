@@ -1,1 +1,1 @@
-[Click on me and see the presentation online :)](https://insectoman.github.io/isBeingAProgrammerReallyCool/#/)
+[Click on me and see the presentation online :)](https://insectoman.github.io/javaBasicWorkshop/#/)

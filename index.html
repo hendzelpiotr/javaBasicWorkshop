@@ -300,6 +300,98 @@
         </section>
 
         <section>
+            <section>
+                <h1>Podstawy składni</h1>
+            </section>
+            <section>
+                <h1>
+                    Klasa
+                </h1>
+                <p class="fragment">definiuje typ</p>
+                <p class="fragment">składa się z pól i metod</p>
+            </section>
+            <section>
+                <p>
+                <pre><code class="hljs" data-trim contenteditable>
+public class Person {
+
+    private int age;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+}
+            </code></pre>
+                </p>
+            </section>
+            <section>
+                <h1>Komentarze</h1>
+                <p class="fragment">kiedy twój kod sam nie nie opisuje</p>
+            </section>
+            <section>
+                <p>
+                <pre><code class="hljs" data-trim contenteditable>
+// To jest komentarz jednowierszowy
+
+/* To jest
+     komentarz
+     wielowierszowy */
+/* A */ /* to */ /* kilka */ /* takich */ /* komentarzy */
+
+/* To jest komentarz /* to nadal jest komentarz */ a_to_już_nie
+            </code></pre>
+                </p>
+            </section>
+            <section>
+                <h1>Indentyfikatory</h1>
+                <p class="fragment">nazwy zmiennych, pól, metod itd.</p>
+            </section>
+            <section>
+                <ul>
+                    <li>Dopuszczalne są litery, cyfry. Znak "_" traktowany jest jako litera.</li>
+                    <li>Wielkość liter ma znaczenie</li>
+                    <li>Dopuszczalne są znaki narodowe (ale ich używanie jest złą praktyką!)</li>
+                    <li>Brak ograniczenia długości</li>
+                    <li>Identyfikatory nie mogą być słowami kluczowymi Javy</li>
+                </ul>
+                <p class="fragment"><strong>Wszystkie identyfikatory piszemy w języku angielskim!</strong></p>
+            </section>
+            <section>
+                <p><strong>camelCase - konwencja nazewnicza Javy</strong></p>
+                <p>
+                <pre><code class="hljs" data-trim contenteditable>
+int nameOfVariable;
+String productId;
+Long countOfProduct;
+            </code></pre>
+                </p>
+            </section>
+            <section>
+                <h2>Słowa kluczowe</h2>
+                <p>
+                    <img src="img/forbidden.png">
+                </p>
+                <p class="fragment">Zabronione są także: true, false, null</p>
+            </section>
+            <section>
+                <h2>Operatory</h2>
+                <p>
+                <pre><code class="hljs" data-trim contenteditable>
+=	>	<	!	~	 ?:
+==	<=	>=	!=	&&	||	++	--
++	-	*	/	&	|	^	%
++=	-=	*=	/=	&=	|=	^=	%=
+<<	>>	>>> <<=	>>=	>>>=
+            </code></pre>
+                </p>
+            </section>
+        </section>
+
+        <section>
             <h1>Dziekuję za uwage!</h1>
             <p>
                 Piotr Hendzel <br>
