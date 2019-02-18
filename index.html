@@ -54,7 +54,7 @@
 
         <section>
             <section>
-                <h1>Co to jest <strong>programowanie?</strong>?</h1>
+                <h1>Co to jest <strong>programowanie?</strong></h1>
             </section>
             <section>
                 <ul>
@@ -144,8 +144,8 @@
             <section>
                 <p>
                 <ul>
-                    <li>Lipiec 1991r.</li>
                     <li>James Gosling, Mike Sheridan, Patrick Naughton</li>
+                    <li>Lipiec 1991r.</li>
                     <li>Telewizja interaktywna</li>
                     <li>Dąb, zieleń i kawa</li>
                     <li>Smalltalk i C++</li>
@@ -162,9 +162,9 @@
             </section>
             <section>
                 <h3>Przykład</h3>
-                <p>Stół i jego projekt.</p>
-                <p>Projekt stołu = typ (klasa)</p>
-                <p>Każdy wyprodukowany stół = instancja (obiekt) typu (klasy) Stół</p>
+                <p>Człowiek</p>
+                <p>Definicja człowieka (kolor oczu, wzrost, waga, imię i nazwisko itd.) = typ (klasa)</p>
+                <p>Każdy z nas = instancja (obiekt) typu (klasy) Człowiek</p>
             </section>
             <section>
                 <h3>Język zorientowany obiektowo to język pozwalający na tworzenie własnych typów (klas).</h3>
@@ -409,6 +409,13 @@ Long countOfProduct;
             </section>
             <section>
                 <h1>Metoda</h1>
+                <p>
+                <pre><code class="hljs" data-trim contenteditable>
+returnedType nameOfMethod(args) {
+    bodyOfMethod;
+}
+            </code></pre>
+                </p>
             </section>
             <section>
                 <h1>Zadanie nr 2</h1>
@@ -425,8 +432,131 @@ Long countOfProduct;
                 <h1>Modyfikatory dostępu</h1>
             </section>
             <section>
+                <p>
+                    <ul>
+                        <li><strong>public</strong></li>
+                        <li>protected</li>
+                        <li>package-private</li>
+                        <li><strong>private</strong></li>
+                    </ul>
+                </p>
+            </section>
+            <section>
                 <h1>Zadanie nr 4</h1>
                 <p>Do klasy Person dodaj konstruktor bezparametrowy. Uzupełnij klasę o gettery i settery. Spraw by wszystkie pola klasy Person były niedostępne poza tą klasą. Utwórz obiekt klasy Person. Zainicjalizuj jego pola z użyciem setterów. Następnie wyświelt imię i nazwisko osoby z użyciem getterów. Format dowolny.</p>
+            </section>
+            <section>
+                <h1>Operatory logiczne</h1>
+                <p>
+                    <ul>
+                        <li>== równe</li>
+                        <li>< mniejsze</li>
+                        <li><= mniejsze bądź równe</li>
+                        <li>> większe</li>
+                        <li>>= większe bądź równe</li>
+                    </ul>
+                </p>
+            </section>
+            <section>
+                <h1>Instrukcja warunkowa IF</h1>
+                <p>
+                <pre><code class="hljs" data-trim contenteditable>
+if(condition) {
+    code;
+}
+            </code></pre>
+                </p>
+            </section>
+            <section>
+                <h1>Operator warunkowy</h1>
+                <p>
+                <pre><code class="hljs" data-trim contenteditable>
+condition ? codeIfTrue : codeIfFalse
+            </code></pre>
+                </p>
+            </section>
+            <section>
+                <p>
+                <pre><code class="hljs" data-trim contenteditable>
+condition ? codeIfTrue : codeIfFalse
+            </code></pre>
+                </p>
+                <p>==
+                <p>
+                <pre><code class="hljs" data-trim contenteditable>
+if(condition) {
+    codeIfTrue;
+} else {
+    codeIfFalse;
+}
+            </code></pre>
+                </p>
+            </section>
+            <section>
+                <h1>Instrukcja sterująca SWITCH</h1>
+                <p>
+                <pre><code class="hljs" data-trim contenteditable>
+switch(variable) {
+    case state1: 
+        code1;
+        break;
+    case state2:
+        code2; 
+        break;
+    default:
+        codeIfNoMatch;
+}
+            </code></pre>
+                </p>
+            </section>
+            <section>
+                <p>
+                <pre><code class="hljs" data-trim contenteditable>
+switch(variable) {
+    case state1: 
+        code1;
+        break;
+    case state2:
+        code2; 
+        break;
+    default:
+        codeIfNoMatch;
+}
+            </code></pre>
+                </p>
+                <p>==
+                <p>
+                <pre><code class="hljs" data-trim contenteditable>
+if(zmienna == state1) {
+    code1;
+} else if(zmienna == state2) {
+    code2;
+} else {
+    codeIfNoMatch;
+}
+            </code></pre>
+                </p>
+            </section>
+            <section>
+                <h1>Pętla FOR</h1>
+                <p>
+                <pre><code class="hljs" data-trim contenteditable>
+for(initialization; condition; incrementation) {
+    code;
+}
+            </code></pre>
+                </p>
+            </section>
+            <section>
+                <h1>Pętla WHILE</h1>
+                <p>
+                <pre><code class="hljs" data-trim contenteditable>
+while(condition) {
+    code;
+    incrementation;
+}
+            </code></pre>
+                </p>                
             </section>
         </section>
 
